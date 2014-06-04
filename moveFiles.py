@@ -6,7 +6,10 @@ import os
 
 
 path = "/home/skhokhar/Downloads/";
-savePath = "/home/skhokhar/common/people/skhokhar/";
+savePath = "/home/skhokhar/common/people/skhokhar/KITTI/person/";
+
+if os.path.exists(savePath) is False:
+    os.system("sudo mkdir "+savePath) 
 
 i = 0;
 
