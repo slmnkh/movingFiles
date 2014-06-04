@@ -36,7 +36,10 @@ for fname in list: # for each folder
         
     # if folder [D_day][Dr_drive] does not exist, make it
         
-        
+    folderName = "[D"+str(day)+"][DR%.02d"driveNum
+    if !os.path.exists(path+folderName):
+        mkdir()
+    
     
     
     
