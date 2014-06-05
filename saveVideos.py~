@@ -7,7 +7,7 @@ Created on Thu Jun  5 14:06:50 2014
 
 import os
 
-scenePath = "/home/skhokhar/common/people/skhokhar/KITTI/unzipped/roadUnzipped"
+scenePath = "/home/skhokhar/common/people/skhokhar/KITTI/unzipped/cityUnzipped"
 path = scenePath+"/synced/"
 savePath = scenePath+"/synced_videos/"
 
