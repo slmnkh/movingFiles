@@ -15,7 +15,7 @@ i = 0;
 
 for file in os.listdir(path):
     
-    if file.startswith("2011") and file.endswith("extract.zip") is False:
+    if file.startswith("2011"):
        
         i=i+1;
         print "Copying file "+file+" ... file number: %d"%i;
